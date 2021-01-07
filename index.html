@@ -1,1 +1,27 @@
-The Great Escape
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Great Escape</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+    <meta charset="utf-8" />
+  </head>
+  <script>
+    function swap() {
+      document.getElementById("narration").innerHTML = "Suddenly, you wake up inside of a... beast's lair?  You had better escape before it sees a human and an empty treasure chest!";
+    }
+  </script>
+  <body>
+    <div class="path-one"  >
+      <p>The Great Escape</p>
+      <img src="../static/path1-home.png" />
+      <button type="button" onclick="swap()">
+        <img src="static/forward-button.png" />
+      </button>
+    </div>
+    <div id="narration" >
+      <p>
+        You're a peasant who's sleeping in an empty treasure chest of your village home. Old chests provide protection from the elements and enemies at night.
+      </p>
+    </div>
+  </body>
+</html>
