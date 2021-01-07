@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: Verdana;
+  font-size: x-large;
+  max-width:80%;
+  margin:0px auto;
+}
+
+/* Title */
+.path-one p {
+  color: #b38b6d;
+  text-align: center;
+  margin:10px;
+}
+/* Main image */
+.path-one img {
+  border-radius:15px;
+  max-width:100%;
+}
+/*Next button*/
+button {
+  border: none;
+  border-radius: 15px;
+  background-color: gray;
+  padding: 10px 10px;
+  float: right;
+  display: inline-block;
+  max-width: 7%;
+  margin: 45px 10px;
+}
+button:hover {
+  background-color: #a9a9a9;
+  color: white;
+}
+/* Text box for narration */
+#narration {
+  rows:6;
+  overflow-x: hidden;
+  padding: 0px 20px;
+  border-radius:15px;
+  background-color:gray;
+  text-align: center;
+  margin:20px auto;
+}
